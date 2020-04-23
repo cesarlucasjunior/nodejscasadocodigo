@@ -4,15 +4,20 @@
 	</head>
 	<body>
 		<h1>Página de lista dos livros</h1>
-		<table>
+		<table id="livros">
 			<tr>
 				<td>Id</td>
 				<td>Descrição</td>
+				<td></td>
+				<td></td>
 			</tr>
-			<tr for (livro in data.livros)>
+			<tr id="livro_${livro.id}" for (livro in data.livros)>
 				<td>${livro.id}</td>
 				<td>${livro.descricao}</td>
+				<td><a href="/livros/form/${livro.id}">Editar</a></td>
+               <td><a href="#" data-ref="${livro.id}" data-type="remocao">Remover</a></td>
 			</tr>
 		</table>
+		<script src="/estatico/js/remove-livro.js"></script>
 	</body>
 </html>

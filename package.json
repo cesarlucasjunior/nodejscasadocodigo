@@ -17,6 +17,7 @@
     "sqlite3": "4.0.2"
   },
   "devDependencies": {
+    "method-override": "^3.0.0",
     "nodemon": "1.18.4"
   }
 }
