@@ -14,7 +14,7 @@
     "express": "4.16.3",
     "marko": "4.13.4-1",
     "sqlite": "4.0.2",
-    "sqlite3": "4.0.2"
+    "sqlite3": "4.2.0"
   },
   "devDependencies": {
     "method-override": "^3.0.0",
